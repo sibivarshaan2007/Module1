@@ -13,7 +13,20 @@ To write a Python program that reads two integers, creates a complex number usin
 
 ## 💻 Program
 Add Code Here
+```py
+a = int(input("Enter real part: "))
+b = int(input("Enter imaginary part: "))
+x = complex(a, b)
+
+# Step 4–6: Display results
+print("Complex number is:", x)
+print("Real part is:", x.real)
+print("Imaginary part is:", x.imag)
+```
 
 ## Output
+<img width="506" height="336" alt="image" src="https://github.com/user-attachments/assets/17de55fe-5ad9-4a19-a361-27992bc9f1df" />
+
 
 ## Result
+The program successfully creates a complex number using user inputs and displays its real and imaginary parts using .real and .imag attributes.
